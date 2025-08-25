@@ -21,14 +21,13 @@ WITH top_jobs AS (
         salary_year_avg IS NOT NULL
     ORDER BY
         salary_year_avg DESC
-    LIMIT 10
+    LIMIT 15
 
 )
 
 SELECT
-    --COUNT(skills_job_dim.skill_id) as skills_anzahl,
-    skills_dim.skills as skill_name,
-    top_jobs.*
+    COUNT(skills_job_dim.skill_id) as skills_anzahl,
+    skills_dim.skills as skill_name
 
 FROM
     top_jobs
@@ -37,5 +36,7 @@ INNER JOIN skills_job_dim
 INNER JOIN skills_dim 
     ON skills_job_dim.skill_id = skills_dim.skill_id
 
---ORDER BY
---    skills_anzahl DESC;
+GROUP BY
+    skill_name
+ORDER BY
+    skills_anzahl DESC;

@@ -85,4 +85,4 @@ HAVING
 ORDER BY
     durchschnittsgehalt DESC,
     anzahl_skills DESC
-LIMIT 25;
+LIMIT 15;

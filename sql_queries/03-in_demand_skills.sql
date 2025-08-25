@@ -15,4 +15,5 @@ WHERE
 GROUP BY
     skills_dim.skill_id
 ORDER BY
-    anzahl_skills DESC;
+    anzahl_skills DESC
+LIMIT 10;

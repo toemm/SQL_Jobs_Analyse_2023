@@ -16,4 +16,5 @@ WHERE
 GROUP BY
     skills_dim.skill_id
 ORDER BY
-    durchschnittsgehalt DESC;
+    durchschnittsgehalt DESC
+LIMIT 10;

@@ -30,7 +30,6 @@ WHERE
 SELECT
     job_title as job_titel,
     company_dim.name as firma,
-    job_via as job_via,
     salary_year_avg as durchschnittsgehalt,
     job_schedule_type as arbeitszeitmodell,
     job_posted_date::DATE as datum
@@ -43,6 +42,6 @@ WHERE
     salary_year_avg IS NOT NULL
 ORDER BY
     salary_year_avg DESC
-LIMIT 10;
+LIMIT 15;
 
 
