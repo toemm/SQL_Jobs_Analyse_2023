@@ -169,7 +169,7 @@ ORDER BY
 LIMIT 10;
 ```
 
-![Anzahl der Jobpostings nach Skill](assets\03_jobs_nach_skills.png)
+![Anzahl der Jobpostings nach Skill](/assets/03_jobs_nach_skills.png)
 *Balkendiagramm zur Visualisierung der Anzahl der Jobpostings nach den ausgeschriebenen Skills im DACH-Raum*
 
 
