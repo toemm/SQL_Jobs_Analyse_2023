@@ -34,7 +34,7 @@ Jede der folgenden SQL-Abfragen liefert konkrete Einblicke in den DACH-Jobmarkt.
 
 Zuerst wurden die bestbezahlten Jobs identifiziert.
 
-[Zur SQL-Abfrage](sql_queries\01-top_jobs_nach_bezahlung.sql)
+[Zur SQL-Abfrage](/sql_queries/01-top_jobs_nach_bezahlung.sql)
 ```sql
 SELECT
     job_title as job_titel,
@@ -148,7 +148,7 @@ ORDER BY
 
 Welche Skills tauchen insgesamt am häufigsten auf?
 
-[Zur SQL-Abfrage](sql_queries\03-in_demand_skills.sql)
+[Zur SQL-Abfrage](/sql_queries/02-top_skills_nach_bezahlung.sql)
 
 ```sql
 SELECT
@@ -185,7 +185,7 @@ LIMIT 10;
 
 Welche Skills sind mit den höchsten Durchschnittsgehältern verknüpft?
 
-[Zur SQL-Abfrage](sql_queries\04-skills_nach_bezahlung.sql)
+[Zur SQL-Abfrage](/sql_queries/04-skills_nach_bezahlung.sql)
 
 ```sql
 SELECT
@@ -233,7 +233,7 @@ LIMIT 10;
 
 Welche Skills bieten gutes Gehalt UND hohe Nachfrage?
 
-[Zur SQL-Abfrage](sql_queries\05-optimale_skills.sql)
+[Zur SQL-Abfrage](/sql_queries/05-optimale_skills.sql)
 
 ```sql
 SELECT
